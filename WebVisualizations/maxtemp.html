@@ -6,7 +6,7 @@
     <title>Latitude Analysis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylevis.css">
 </head>
 
 
@@ -45,21 +45,19 @@
     </div>
 
     <div class="containter content">
-        <div class="row no-gutters">
-            <div class="app-card col-lg">
-                <h1>Summary: Latitude vs. X</h1>
+        <div class="row no gutters">
+            <div class="app-card-select col-lg">
+                <h1>Max Temperature</h1>
                 <hr>
-                <img class="img-small" src="assets/Fig1.png">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-                    accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on
-                    over 500 cities.
-                    <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-                    latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This
-                    site provides the source data and visualizations created as part of the analysis, as well as
-                    explanations of any trends and correlations witnessed.
+                <div>
+                    <img class="img-large-select" src="assets/Fig1.png">
+                </div>    
+                <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                    Lattitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer
+                    this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time
+                    of the year this data was gathered.
                 </p>
             </div>
-
 
             <div class="app-card-visual col-lg-4">
                 <h1>Visualizations</h1>
@@ -67,7 +65,7 @@
                 <div class="container">
                     <div class="row">
                         <a href="maxtemp.html">
-                            <img class="img-small" src="assets/Fig1.png">
+                            <img class="img-small-select" src="assets/Fig1.png">
                         </a>
                         <a href="humidity.html">
                             <img class="img-small" src="assets/Fig2.png">
