@@ -13,9 +13,19 @@ h6 {
 
 .navbar-brand {
     text-align: left;
-    font-size: 20px;
-    background-color: teal;
+    font-size: 30px;
+    color: teal;
 }
+
+.navbar-light {
+    background-color: white;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: white;
+    background-color: teal; 
+} 
 
 .nav-item {
     color: black
@@ -117,6 +127,10 @@ h6 {
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 0%;
+    }
+
+    .navbar-light {
+        background-color: teal;
     }
 }
 

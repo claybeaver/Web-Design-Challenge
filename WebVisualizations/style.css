@@ -17,12 +17,22 @@ h5 {
 
 .navbar-brand {
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
+    color: teal;
+}
+
+.navbar-light {
+    background-color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
     background-color: teal;
 }
 
 .nav-item {
-    color: black
+    color: black;
 }
 
 .content {
@@ -160,6 +170,9 @@ h5 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 35%;
-    } 
+    }
 
+    .navbar-light {
+        background-color: teal;
+    }
 }
